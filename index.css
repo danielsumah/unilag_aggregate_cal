@@ -6,10 +6,22 @@
 div.container{
     width: 80%;
     margin: 10% auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     text-align: center;
 }
 
 input,label{
     margin-bottom: 20px;
+}
+
+p#instruction{
+    color:red;
+    margin-bottom: 10px;
+}
+
+p#copyright{
+    text-align: center;
+    color: blue;
+    position: absolute;
+    bottom: 30px;
 }
