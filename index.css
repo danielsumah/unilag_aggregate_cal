@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.container{
+    width: 80%;
+    margin: 10% auto;
+    border: 1px solid red;
+    text-align: center;
+}
+
+input,label{
+    margin-bottom: 20px;
+}
