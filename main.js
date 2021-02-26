@@ -16,11 +16,24 @@ function result(){
 
     // collect jamb score and cover to 50
     var jambScore  = document.getElementById("utme-score").value;
-    var jambAgg = parseFloat(jambScore)/8;
 
-    // collect post utme score
+    if(jambScore <0 || jambScore > 400){
+        document.getElementById("show-result").innerHTML = "Enter a Score between 0 and 400";
+        break;
+    } else{
+        var jambAgg = parseFloat(jambScore)/8;
+    }
+
+        // collect post utme score
     var postJambScore  = document.getElementById("post-utme-score").value;
-    var postJambAgg = parseFloat(postJambScore);
+
+    if(postJambScore < 0 || postJambScore > 30){
+        document.getElementById("show-result").innerHTML = "Enter a Score between 0 and 30";
+        break;
+    } else{
+        var postJambAgg = parseFloat(postJambScore);;
+    }
+    
 
     // sum up aggregates
     var aggregareScore = waecScoreSum + jambAgg + postJambAgg;
