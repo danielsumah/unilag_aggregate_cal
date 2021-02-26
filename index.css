@@ -7,11 +7,22 @@ body{
 }
 
 div.container{
-    width: 80%;
+    /* width: 80%; */
     margin: 10% auto;
-    /* border: 1px solid red; */
-    text-align: center;
+    border: 1px solid red;
+    /* text-align: center; */
+    align-items: center;
+    
 }
+
+div.form{
+    border: 1px solid rgb(33, 131, 66);
+    width: 80%;
+    
+}
+
+
+
 
 input,label{
     margin-bottom: 20px;
