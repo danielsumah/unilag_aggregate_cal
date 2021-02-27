@@ -55,7 +55,7 @@ function detWaecScore(letterGrade){
     } else if(letterGrade == "B3"){
         score = 3.2;
     } else if(letterGrade == "C4"){
-        score == 2.8;
+        score = 2.8;
     } else if(letterGrade =="C5"){
         score = 2.4;
     } else if(letterGrade == "C6"){
